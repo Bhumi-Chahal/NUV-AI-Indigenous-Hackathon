@@ -1,0 +1,38 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Background setup */
+body {
+  font-family: Arial, sans-serif;
+  background: url("./assets/Screenshot 2025-09-01 021740.png") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+}
+
+/* Title Bar */
+.title-bar {
+  background: rgba(0, 0, 0, 0.7); /* semi-transparent black */
+  padding: 20px;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* Main content */
+.content {
+  margin-top: 60px;
+  background: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 30px;
+  border-radius: 10px;
+}
