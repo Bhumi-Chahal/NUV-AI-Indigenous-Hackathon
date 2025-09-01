@@ -1,10 +1,5 @@
 # Frontend Setup
 
--Tech stack: HTML, CSS, JavaScript (Vanilla)
--UI components built with Bootstrap/Tailwind (optional)
+Tech stack: (React / Angular / Vue — decide later)
+UI components will go here
 
-frontend/
-  index.html
-  style.css
-  script.js
-  assets/
